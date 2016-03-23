@@ -1,0 +1,140 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(BADABB__.TTF);
+}
+
+@font-face {
+    font-family: 'Antic Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Antic Slab'), local('AnticSlab-Regular'), url(AnticSlab.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 200px;
+    /* Margin top by header height */
+    margin-top: 100px;
+    /* specify the background image in the page css */
+    /* background-image: url("../image/background_black.jpg"); */
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navBar {
+    position: absolute;
+    list-style: none;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    width: 100%;
+    background: white;
+    height: 100px;
+}
+
+.navBarTop {
+    top: 0px;
+    height: 100px;
+}
+
+.navBarBottom {
+    bottom: 0;
+    height: 200px;
+}
+
+li.topBar {
+    width: 25%;
+    float: left;
+    display: block;
+}
+
+.navButton {
+    display: block;
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Antic Slab', serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+    border-style: groove;
+    border-color: gray;
+}
+
+.navButton:hover {
+    background-color: #a7a7a7;
+    text-decoration: none;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+li.bottomBar {
+    width: 25%;
+    float: left;
+    display: block;
+    padding-right: 15px;
+}
+
+li.bottomBarHours {
+    width: 20%;
+    float: right;
+    display: block;
+    line-height: 50%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+#clock {
+    width: 50px;
+    margin-top: 10px;
+}
+
+#bottomText {
+    position: relative;
+    left: 5px;
+    margin-top: 5px;
+}
+
+#logo {
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+
+.socialIcons {
+    float: right;
+    padding-right: 100px;
+    list-style: none;
+}
+
+.socialIcon {
+    width: 20px;
+    height: 20px;
+    border: 0;
+}
