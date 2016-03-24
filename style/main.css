@@ -46,7 +46,18 @@ body {
 
 .navBarBottom {
     bottom: 0;
-    height: 200px;
+    height: 100px;
+}
+
+.navBarTextBox {
+    height: 100px;
+    line-height: 100px;
+}
+
+.navBarText {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
 }
 
 li.topBar {
@@ -110,27 +121,29 @@ a:active {
     text-decoration: underline;
 }
 
-#clock {
-    width: 50px;
-    margin-top: 10px;
+.clock {
+    text-align: right;
+    padding: 0;
+/*    margin-top: 10px; */
 }
 
-#bottomText {
-    position: relative;
-    left: 5px;
-    margin-top: 5px;
+.bottomText {
+    margin: 0;
 }
 
 #logo {
     position: relative;
     left: 30px;
     top: 10px;
+    vertical-align: center;
 }
 
 .socialIcons {
-    float: right;
-    padding-right: 100px;
-    list-style: none;
+    position: relative;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
 }
 
 .socialIcon {
