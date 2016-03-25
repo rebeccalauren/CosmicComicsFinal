@@ -58,11 +58,12 @@ body {
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
+    font-family: 'Antic Slab';
 }
 
 li.topBar {
-    width: 25%;
-    float: left;
+    width: 10%;
+    float: right;
     display: block;
 }
 
@@ -75,11 +76,29 @@ li.topBar {
     font-family: 'Antic Slab', serif;
     font-size: 24px;
     font-weight: bold;
-    padding: 20px;
+    padding: 5px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     margin-top: 10px;
     margin-right: 5px;
+    border-style: groove;
+    border-color: gray;
+}
+.navButtonBottom {
+    display: block;
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Antic Slab', serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 20px;
     border-style: groove;
     border-color: gray;
 }
@@ -92,10 +111,11 @@ li.topBar {
 }
 
 li.bottomBar {
-    width: 25%;
+    width: 10%;
     float: left;
     display: block;
     padding-right: 15px;
+    font-family: 'Antic Slab';
 }
 
 li.bottomBarHours {
@@ -103,6 +123,7 @@ li.bottomBarHours {
     float: right;
     display: block;
     line-height: 50%;
+    font-family: 'Antic Slab';
 }
 
 a:link {
@@ -129,6 +150,7 @@ a:active {
 
 .bottomText {
     margin: 0;
+    font-family: 'Antic-Slab'
 }
 
 #logo {
@@ -150,4 +172,7 @@ a:active {
     width: 20px;
     height: 20px;
     border: 0;
+}
+.logo {
+    float: left;
 }
